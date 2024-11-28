@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flashcard-container">
+        <div class="card">
+            <p id="question">always</p>
+        </div>
+
+
+<div class="level-selector">
+    <label for="level-select">Виберіть рівень:</label>
+    <select id="level-select">
+        <option value="beginner">Початковий</option>
+        <option value="intermediate">Середній</option>
+        <option value="advanced">Просунутий</option>
+    </select>
+</div>
+
+        <div id="message"></div>
+        <div class="controls">
+            <button id="prev-btn">←</button>
+            <span id="progress">1/10</span>
+            <button id="next-btn">→</button>
+        </div>
+        <input type="text" id="answer-input" placeholder="Введіть переклад">
+        <div class="stats">
+            <span class="correct">Вірно: <span id="correct-count">0</span></span>
+            <span class="incorrect">Невірно: <span id="incorrect-count">0</span></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
